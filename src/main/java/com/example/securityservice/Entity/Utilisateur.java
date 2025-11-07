@@ -31,23 +31,6 @@ public class Utilisateur {
     public Roles getRole() {
         return role;
     }
-
-    // ----- SETTERS -----
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public void setRole(Roles role) {
-        this.role = role;
-    }
+    
 }
 
